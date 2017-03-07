@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Initial template</title>
+    <style>
+        @font-face {
+            font-family: AkkuratPro;
+            src: url("fonts/AkkuratPro-Bold.ttf") format("truetype");
+        }
+        
+        body {
+            background-color: #FFFFFF;
+        }
+        
+        .nm-credit-header {
+            width: 253px;
+            height: 35px;
+            background-color: #C9CBCA;
+            border-radius: 2px 20px 2px 2px;
+            font-family: AkkuratPro;
+            font-size: 12px;
+            color: #FFFFFF;
+            display: table;
+            text-align: center;
+        }
+        
+        .nm-credit-button a,
+        .nm-credit-header span {
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+        }
+        
+        .nm-credit-button a {
+            text-decoration: none;
+            color: #F1F2F2;
+        }
+        
+        .nm-credit-box {
+            width: 253px;
+            height: 255px;
+            border-radius: 2px 20px 20px 20px;
+            background-color: #FFFFFF;
+            margin: 0 auto;
+        }
+        
+        .nm-credit-form {
+            height: 181px;
+            margin-bottom: 4px;
+            background-color: #F1F2F2;
+        }
+        
+        .nm-credit-cvv {
+            font-family: AkkuratPro;
+            font-size: 12px;
+            color: #404646;
+            padding-right: 20px;
+            padding-left: 20px;
+            text-align: justify;
+            height: 171px;
+            margin-bottom: 4px;
+            background-color: #F1F2F2;
+            text-align: center;
+            padding-top: 10px;
+        }
+        
+        .nm-credit-cvv p {
+            text-align: justify;
+        }
+        
+        .nm-credit-cvv a {
+            color: #404646;
+        }
+        
+        .nm-credit-button {
+            width: 253px;
+            height: 35px;
+            background-color: #95D8F0;
+            border-radius: 2px 2px 20px 20px;
+            bottom: 0;
+            display: table;
+            text-align: center;
+            font-family: AkkuratPro;
+            font-size: 14px;
+        }
+        
+        .nm-credit-button a:active {
+            border-radius: 2px 2px 20px 20px;
+            background-color: #3c97d3;
+        }
+        
+        .container {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nm-credit-box">
+            <div class="nm-credit-header">
+                
+                <span>Este formulário é seguro</span>
+            </div>
+            <div class="nm-credit-cvv">
+                <section>
+                    <header>O que é o código CVV</header>
+                    <p>
+                        O CVV é um código de segurança impreso no verso do seu cartão de crédito com 3 (três) dígitos. Obs.:Apenas para cartões AMEX
+                        o CVV (código de verificação de cartão) é de 4 (quatro) dígitos, e essa informação fica na parte
+                        da frente do seu cartão.
+                    </p>
+                    <a href=""><span>VOLTAR</span></a>
+                </section>
+            </div>
+            <div class="nm-credit-button">
+                <a href="">
+                    <span>Enviar dados</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
